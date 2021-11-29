@@ -72,7 +72,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url("../images/hero-bg.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -179,30 +179,6 @@ section {
   border-color: #39a6b2;
 }
 
-.steps div {
-  margin-bottom: 80px;
-}
-
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-}
-
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
-}
-
-.steps span {
-  font size: 38px;
-}
-
 .trainers {
   text-align: center;
 }
@@ -212,26 +188,18 @@ section {
   margin: 0 auto 30px auto;
   background: #024e76;
   color: #fce138;
+  overflow: auto;
 }
 
 .trainer img {
   width: 35%;
   float: left;
-  overflow: auto
 }
 
 .trainer-bio {
   padding: 35px;
   float: left;
   width: 65%;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -248,4 +216,12 @@ section {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
